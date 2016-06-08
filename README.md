@@ -1,4 +1,4 @@
-# depolitik - A rails project currently in the works.
+# depolitik - A rails project currently in the works. Views will be built using React
 
 ## To check progress please go to elemshalit.github.io/depolitik.
 
