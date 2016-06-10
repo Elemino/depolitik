@@ -4,7 +4,7 @@
 Application enviroment is build ready under deplolitik_dynamic.
 
 
-*Considering buildig views in React
+*Considering building views in React
 
 
 Any contributions are welcomed.
