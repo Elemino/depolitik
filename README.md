@@ -1,5 +1,12 @@
-# depolitik
+# depolitik - A rails project currently in the works. 
+## To check progress please go to elemshalit.github.io/depolitik.
+
+Application enviroment is build ready under deplolitik_dynamic.
 
 
-  A rails application/react project currently in the works. To check progress please go to 
-elemshalit.github.io/depolitik.
+*Considering building views in React
+
+
+Any contributions are welcomed.
+  
+  
