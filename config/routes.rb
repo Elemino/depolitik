@@ -1,5 +1,6 @@
 Rails.application.routes.draw do
-  def index
-root 'welcome#index'
- end
+
+  root 'welcome#index'
+
+
 end
