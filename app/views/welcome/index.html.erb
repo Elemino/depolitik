@@ -4,10 +4,16 @@
     <a href="index.html" id="logo">DEPolitik</a>
     <nav>
       <ul>
-        <li><a href="issues.html">Issues</a></li>
-        <li><a href="sign_in.html">Sign In</a></li>
-        <li><a href="sign_up.html">Create an Issue</a></li>
+        <% unless issue_signed_in? %>
+      <li><a href="#">Explore Issues</a></l>
+        <li><%= link_to "sign_in", new_issue_session_path %></li>
+        <li><%= link_to "create an Issue", new_issue_registration_path %></li>
+        <% else %>
+        <li><a href="#">Inventory</li>
+        <li><a href="#">Explore Issues</a></l>
+        <li><%= link_to "Sign out", destroy_issue_session_path, method: :delete %></li>
         <li><a href="about.html">About</a></li>
+        <% end %>
       </ul>
     </nav>
 </div>
@@ -15,7 +21,6 @@
   <div class="wrapper_skinny">
   <h1> Discover your new favorite issues<br>or create your own</h1>
   <%= link_to "Create an Issue", new_issue_registration_path, class: "button button_highlight" %>
-  <a href="issues.html" class="button button_white">All Issues</a>
-
+  <a href="#" class="button button_white">All Issues</a>
  </div>
 </div>
