@@ -1,0 +1,25 @@
+
+
+  <div id="banner" class="issues_banner">
+    <h1>Discover your favorite issue</h1>
+  </div>
+
+  <div id="issues" class="cf">
+  <div class="wrapper">
+  <ul>
+    <% @issues.each do |issue| %>
+    <%= link_to issue do %>
+
+     <a href="issues_show.html">
+      <li>
+       <img src="img/Economic.jpg" alt="Economic Policy">
+        <div class="policy_overview">
+         <h2><%= issue.title %></h2>
+          <p class="issue_count">1 issue</p>
+       </div>
+     </li>
+    <% end %>
+  <% end %>
+ </ul>
+</div>
+</div>

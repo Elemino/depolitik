@@ -2,8 +2,10 @@ Rails.application.routes.draw do
 
 
   devise_for :issues
-  resources :users
+
   root 'welcome#index'
+
+  resources :issues, only: [:index, :show]
 
 
 end
