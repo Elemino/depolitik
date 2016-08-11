@@ -65,7 +65,7 @@ body {
 }
 
 .button_highlight {
-  background: $highlight;
+  background: #EDEFF5;
   transition: background .4s ease-in-out;
   &:hover {
     background: darken($highlight, 7.5%)
@@ -116,7 +116,7 @@ body {
   margin-bottom: 4rem;
   h1 {
     text-align: center;
-    color: $white;
+    color: $dark;
     font-size: 3rem;
     font-weight: 300;
     letter-spacing: 1px;
