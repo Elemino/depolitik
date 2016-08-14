@@ -5,12 +5,12 @@
     <nav>
       <ul>
         <% unless issue_signed_in? %>
-      <li><a href="#">Explore Issues</a></l>
+      <li> <%= link_to "Inventory", issues_path %></l>
         <li><%= link_to "Sign In", new_issue_session_path %></li>
         <li><%= link_to "Create An Issue", new_issue_registration_path %></li>
         <% else %>
-        <li><a href="#">Inventory</li>
-        <li><a href="#">Explore Issues</a></l>
+        <li>  <%= link_to "Inventory", issues_path %></li>
+
         <li><%= link_to "Sign out", destroy_issue_session_path, method: :delete %></li>
         <li><a href="about.html">About</a></li>
         <% end %>
@@ -19,8 +19,9 @@
 </div>
   </header>
   <div class="wrapper_skinny">
-  <h1> Discover your new favorite issues<br>or create your own</h1>
+  <h1> Discover your new favorite issues,<br>or create your own.</h1>
   <%= link_to "Create An Issue", new_issue_registration_path, class: "button button_highlight" %>
-  <a href="#" class="button button_white">All Issues</a>
+  <%= link_to "Inventory", issues_path, class: "button button_white" %>
+
  </div>
 </div>

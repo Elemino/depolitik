@@ -1,4 +1,3 @@
-
   <header id="main_header" class="cf">
   <div class="wrapper_wide">
     <a href="index.html" id="logo">DEPolitik</a>
@@ -16,7 +15,7 @@
 <div id="issues_show">
  <div id="show_banner">
   <div class="wrapper_skinny">
-    <h1><%= @issue.title %></h1>
+    <h1><%= @issues.title %></h1>
     <p class="description">Getting grain policy right. Together! </p>
     <a href="#" class="subscribe_link">Videos</a>
     <a href="#" class="subscribe_link">Table of Contents</a>
@@ -25,11 +24,11 @@
     </div>
 
     <div id="breadcrumb">
-       <a href="#">
-           All issues
+       <%= link_to issues_path do %>
+           All Issues
            <span>/</span>
            Grain Transportation
-       </a>
+       <% end %>
     </div>
     <div id="economicissues">
     <div class="wrapper_skinny">
