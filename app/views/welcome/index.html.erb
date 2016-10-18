@@ -1,0 +1,27 @@
+<div id="background">
+  <header class="cf">
+  <div class="wrapper_wide">
+    <a href="index.html" id="logo">DEPolitik</a>
+    <nav>
+      <ul>
+        <% unless issue_signed_in? %>
+      <li> <%= link_to "Inventory", issues_path %></l>
+        <li><%= link_to "Sign In", new_issue_session_path %></li>
+        <li><%= link_to "Create An Issue", new_issue_registration_path %></li>
+        <% else %>
+        <li>  <%= link_to "Inventory", issues_path %></li>
+
+        <li><%= link_to "Sign out", destroy_issue_session_path, method: :delete %></li>
+        <li><a href="/pages/about.html">About</a></li>
+        <% end %>
+      </ul>
+    </nav>
+</div>
+  </header>
+  <div class="wrapper_skinny">
+  <h1> Discover your new favorite issues,<br>or create your own.</h1>
+  <%= link_to "Create An Issue", new_issue_registration_path, class: "button button_highlight" %>
+  <%= link_to "Inventory", issues_path, class: "button button_white" %>
+
+ </div>
+</div>

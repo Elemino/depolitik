@@ -1,0 +1,95 @@
+  <header id="main_header" class="cf">
+  <div class="wrapper_wide">
+    <a href="index.html" id="logo">DEPolitik</a>
+    <nav>
+      <ul>
+        <li><a href="issues.html">Issues</a></li>
+        <li><a href="sign_in.htmlin.html">Sign In</a></li>
+        <li><a href="sign_in.html">Create an Issue</a></li>
+        <li><a href="about.html">About us</a></li>
+      </ul>
+    </nav>
+</div>
+</header>
+
+<div id="issues_show">
+ <div id="show_banner">
+  <div class="wrapper_skinny">
+    <h1><%= @issues.title %></h1>
+    <p class="description">Getting grain policy right. Together! </p>
+    <a href="#" class="subscribe_link">Videos</a>
+    <a href="#" class="subscribe_link">Table of Contents</a>
+    <a href="#" class="subscribe_link">Research</a>
+     </div>
+    </div>
+
+    <div id="breadcrumb">
+       <%= link_to issues_path do %>
+           All Issues
+           <span>/</span>
+           Grain Transportation
+       <% end %>
+    </div>
+    <div id="economicissues">
+    <div class="wrapper_skinny">
+      <ul class="cf">
+        <li class="cf">
+        <div class="economicissues_thumbnail">
+        <a href="#">
+        <img src="img/grain.jpg" alt="grain">
+          </a>
+         </div>
+         <div class="economicissues_overview">
+         <h2><a href="#">Getting grain policy right!
+         Together we can.</a></h2>
+         <p class="description">This is a research about
+           the grain policy in Canada</p>
+       </div>
+      </li>
+      <li class="cf">
+      <div class="economicissues_thumbnail">
+      <a href="#">
+      <img src="img/grain.jpg" alt="grain">
+        </a>
+       </div>
+       <div class="economicissues_overview">
+       <h2><a href="#">Getting grain policy right!
+       Together we can.</a></h2>
+       <p class="description"> the grain policy initiatives1</p>
+     </div>
+    </li>
+    <li class="cf">
+    <div class="economicissues_thumbnail">
+    <a href="#">
+    <img src="img/grain.jpg" alt="grain">
+      </a>
+     </div>
+     <div class="economicissues_overview">
+     <h2><a href="#">Getting grain policy right!
+     Together we can.</a></h2>
+     <p class="description"> the grain policy initiatives2</p>
+   </div>
+  </li>
+  <li class="cf">
+  <div class="economicissues_thumbnail">
+  <a href="#">
+  <img src="img/grain.jpg" alt="grain">
+    </a>
+   </div>
+   <div class="economicissues_overview">
+   <h2><a href="#">Getting grain policy right!
+   Together we can.</a></h2>
+   <p class="description">
+     the grain policy initiatives3</p>
+ </div>
+</li>
+     </ul>
+    </div>
+   </div>
+  </div>
+  <div class="pagination">
+      <span class="previous_page disabled">Previous</span>
+    <em class="current">1</em>
+    <a href="#">2</a>
+    <a class="next_page" href="#">Next</a>
+  </div>

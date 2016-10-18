@@ -1,0 +1,37 @@
+
+  <header id="main_header" class="cf">
+  <div class="wrapper_wide">
+    <a href="index.html" id="logo">DEPolitik</a>
+    <nav>
+      <ul>
+        <li><a href="issues.html">Issues</a></li>
+        <li><a href="sign_in.html">Sign In</a></li>
+        <li><a href="sign_in.html">Create an Issue</a></li>
+        <li><a href="about.html">About</a></li>
+      </ul>
+    </nav>
+</div>
+  </header>
+
+
+  <div id="banner" class="issues_banner">
+    <h1>Discover a new issue.</h1>
+  </div>
+
+  <div id="issues" class="cf">
+  <div class="wrapper">
+  <ul>
+    <% @issues.each do |issue| %>
+    <%= link_to issue do %>
+      <li>
+       <img src="img/Economic.jpg" alt="Economic Policy">
+        <div class="policy_overview">
+         <h2><%= issue.title %></h2>
+          <p class="issue_count">1 issue</p>
+       </div>
+     </li>
+    <% end %>
+  <% end %>
+ </ul>
+</div>
+</div>
