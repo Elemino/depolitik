@@ -1,6 +1,10 @@
 source 'https://rubygems.org'
 
+<<<<<<< HEAD
 ruby '2.3.1'
+=======
+ruby '2.3.0'
+>>>>>>> 487f7cc22b03ba6ee41326e85dcade958a70da51
 
 gem 'rails', '4.2.6'
 gem 'sass-rails', '~> 5.0'
