@@ -6,7 +6,7 @@
       <ul>
         <li><a href="issues.html">Issues</a></li>
         <li><a href="sign_in.html">Sign In</a></li>
-        <li><a href="sign_in.html">Create an Issue</a></li>
+        <li><a href="sign_in.html">Post an Issue</a></li>
         <li><a href="about.html">About</a></li>
       </ul>
     </nav>
@@ -24,7 +24,7 @@
     <% @issues.each do |issue| %>
     <%= link_to issue do %>
       <li>
-       <img src="img/Economic.jpg" alt="Economic Policy">
+       <img src="/images/Economic.jpg" alt="Economic Policy">
         <div class="policy_overview">
          <h2><%= issue.title %></h2>
           <p class="issue_count">1 issue</p>
