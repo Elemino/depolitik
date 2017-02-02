@@ -1,5 +1,5 @@
 class SubjectsController < ApplicationController
-  before_action :authenticate_issue, except[:show]
+  before_action :authenticate_issue, exec [:show]
   before_action :find_issue
   before_action :find_subject, only: [:show]
 
@@ -8,7 +8,7 @@ class SubjectsController < ApplicationController
 end
 
 def create
-  @subject = @issue.subjects.new subject_params
+  @subject = @issue.subjects.new subjects_params
   if @subject.save
     redirect_to issue_subject_path(@issue)
   else
