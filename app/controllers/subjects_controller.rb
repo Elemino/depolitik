@@ -1,5 +1,5 @@
 class SubjectsController < ApplicationController
-  before_action :authenticate_issue, exec [:show]
+  before_action :authenticate_issue, except [:show]
   before_action :find_issue
   before_action :find_subject, only: [:show]
 
