@@ -1,6 +1,6 @@
 # earo - A rails project currently in the works.
 
-## http://elemino.github.io/earo & https://gentle-brushlands-50387.herokuapp.com/
+## http://elemino.github.io/earo & https://earo.herokuapp.com/
 
 
 Any contributions are welcomed.
