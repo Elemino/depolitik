@@ -18286,3 +18286,10 @@ Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bd
 
 
 Started GET "/assets/kazan-big-4c14b03e392ab2b2b4d593e079a33e8d364f1ca33589fb5820ad60b487ad8d48.jpg" for 127.0.0.1 at 2017-02-02 00:28:18 -0800
+
+
+Started GET "/" for 127.0.0.1 at 2017-02-22 19:12:00 -0800
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (9.7ms)
+Completed 200 OK in 405ms (Views: 380.0ms | ActiveRecord: 0.0ms)
