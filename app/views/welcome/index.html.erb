@@ -8,14 +8,13 @@
       <li> <%= link_to "Inventory", issues_path %></l>
         <li><%= link_to "Sign In", new_issue_session_path %></li>
         <li><%= link_to "Post An Issue", new_issue_registration_path %></li>
+        <li><%= link_to "About", {:controller => 'static_pages', :action => 'about'} %></li>
         <% else %>
         <li>  <%= link_to "Inventory", issues_path %></li>
-
         <li><%= link_to "Sign out", destroy_issue_session_path, method: :delete %></li>
+        <li><%= link_to "About", {:controller => 'static_pages', :action => 'about'} %></li>
 
-        <li><a href="/pages/about.html">About us</a></li>
 
-        <li><a href="about.html">About</a></li>
 
         <% end %>
       </ul>
@@ -23,7 +22,7 @@
 </div>
   </header>
   <div class="wrapper_skinny">
-  <h1> Discover your new favorite processor or filter,<br>create your own, and share.</h1>
+  <h1> Discover your new favorite processor or filter,<br>create your own and share.</h1>
   <%= link_to "Post a new issue", new_issue_registration_path, class: "button button_highlight" %>
   <%= link_to "Inventory", issues_path, class: "button button_white" %>
 
