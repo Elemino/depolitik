@@ -23231,3 +23231,418 @@ ActionController::RoutingError (No route matches [GET] "/static_pages/css/applic
   Rendered /home/user/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
   Rendered /home/user/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
   Rendered /home/user/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (66.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-03-02 17:17:34 -0800
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by WelcomeController#index as HTML
+  [1m[35mIssue Load (0.5ms)[0m  SELECT  "issues".* FROM "issues" WHERE "issues"."id" = ?  ORDER BY "issues"."id" ASC LIMIT 1  [["id", 1]]
+  Rendered welcome/index.html.erb within layouts/application (50.6ms)
+Completed 200 OK in 433ms (Views: 414.7ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/application.self-683545ecf60eb080785e596604f5a76867501414124381aa2f44ec05cfc88cdd.css?body=1" for 127.0.0.1 at 2017-03-02 17:17:34 -0800
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 127.0.0.1 at 2017-03-02 17:17:34 -0800
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for 127.0.0.1 at 2017-03-02 17:17:34 -0800
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 127.0.0.1 at 2017-03-02 17:17:34 -0800
+
+
+Started GET "/assets/issues.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2017-03-02 17:17:34 -0800
+
+
+Started GET "/assets/posts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2017-03-02 17:17:34 -0800
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2017-03-02 17:17:34 -0800
+
+
+Started GET "/assets/subjects.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2017-03-02 17:17:34 -0800
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2017-03-02 17:17:34 -0800
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2017-03-02 17:17:34 -0800
+
+
+Started GET "/assets/kazan-big-4c14b03e392ab2b2b4d593e079a33e8d364f1ca33589fb5820ad60b487ad8d48.jpg" for 127.0.0.1 at 2017-03-02 17:17:35 -0800
+
+
+Started GET "/" for 127.0.0.1 at 2017-03-02 17:20:02 -0800
+Processing by WelcomeController#index as HTML
+  [1m[36mIssue Load (0.1ms)[0m  [1mSELECT  "issues".* FROM "issues" WHERE "issues"."id" = ?  ORDER BY "issues"."id" ASC LIMIT 1[0m  [["id", 1]]
+  Rendered welcome/index.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 29ms (Views: 28.5ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-03-02 17:20:39 -0800
+Processing by WelcomeController#index as HTML
+  [1m[35mIssue Load (0.1ms)[0m  SELECT  "issues".* FROM "issues" WHERE "issues"."id" = ?  ORDER BY "issues"."id" ASC LIMIT 1  [["id", 1]]
+  Rendered welcome/index.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 27ms (Views: 26.3ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-03-02 17:20:41 -0800
+Processing by WelcomeController#index as HTML
+  [1m[36mIssue Load (0.1ms)[0m  [1mSELECT  "issues".* FROM "issues" WHERE "issues"."id" = ?  ORDER BY "issues"."id" ASC LIMIT 1[0m  [["id", 1]]
+  Rendered welcome/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 25ms (Views: 24.0ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-03-02 17:24:35 -0800
+Processing by WelcomeController#index as HTML
+  [1m[35mIssue Load (0.2ms)[0m  SELECT  "issues".* FROM "issues" WHERE "issues"."id" = ?  ORDER BY "issues"."id" ASC LIMIT 1  [["id", 1]]
+  Rendered welcome/index.html.erb within layouts/application (2.6ms)
+DEPRECATION WARNING: Extra .css in SCSS file is unnecessary. Rename /home/user/Dropbox/Sites&Apps/depolitik/app/assets/stylesheets/normalize.css.scss to /home/user/Dropbox/Sites&Apps/depolitik/app/assets/stylesheets/normalize.scss. (called from _app_views_layouts_application_html_erb__4037588055094681884_47229602302680 at /home/user/Dropbox/Sites&Apps/depolitik/app/views/layouts/application.html.erb:5)
+DEPRECATION WARNING: Extra .css in SCSS file is unnecessary. Rename /home/user/Dropbox/Sites&Apps/depolitik/app/assets/stylesheets/welcome.css.scss to /home/user/Dropbox/Sites&Apps/depolitik/app/assets/stylesheets/welcome.scss. (called from _app_views_layouts_application_html_erb__4037588055094681884_47229602302680 at /home/user/Dropbox/Sites&Apps/depolitik/app/views/layouts/application.html.erb:5)
+DEPRECATION WARNING: Extra .css in SCSS file is unnecessary. Rename /home/user/Dropbox/Sites&Apps/depolitik/app/assets/stylesheets/issues.css.scss to /home/user/Dropbox/Sites&Apps/depolitik/app/assets/stylesheets/issues.scss. (called from _app_views_layouts_application_html_erb__4037588055094681884_47229602302680 at /home/user/Dropbox/Sites&Apps/depolitik/app/views/layouts/application.html.erb:5)
+DEPRECATION WARNING: Extra .css in SCSS file is unnecessary. Rename /home/user/Dropbox/Sites&Apps/depolitik/app/assets/stylesheets/normalize.css.scss to /home/user/Dropbox/Sites&Apps/depolitik/app/assets/stylesheets/normalize.scss. (called from _app_views_layouts_application_html_erb__4037588055094681884_47229602302680 at /home/user/Dropbox/Sites&Apps/depolitik/app/views/layouts/application.html.erb:5)
+DEPRECATION WARNING: Extra .css in SCSS file is unnecessary. Rename /home/user/Dropbox/Sites&Apps/depolitik/app/assets/stylesheets/welcome.css.scss to /home/user/Dropbox/Sites&Apps/depolitik/app/assets/stylesheets/welcome.scss. (called from _app_views_layouts_application_html_erb__4037588055094681884_47229602302680 at /home/user/Dropbox/Sites&Apps/depolitik/app/views/layouts/application.html.erb:5)
+DEPRECATION WARNING: Extra .css in SCSS file is unnecessary. Rename /home/user/Dropbox/Sites&Apps/depolitik/app/assets/stylesheets/issues.css.scss to /home/user/Dropbox/Sites&Apps/depolitik/app/assets/stylesheets/issues.scss. (called from _app_views_layouts_application_html_erb__4037588055094681884_47229602302680 at /home/user/Dropbox/Sites&Apps/depolitik/app/views/layouts/application.html.erb:5)
+Completed 200 OK in 180ms (Views: 178.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.self-0eac0542fbc649debbf036d7c457a5ccaa2dacd305a6c06be71069acc69b96b7.css?body=1" for 127.0.0.1 at 2017-03-02 17:24:35 -0800
+
+
+Started GET "/" for 127.0.0.1 at 2017-03-02 17:24:59 -0800
+Processing by WelcomeController#index as HTML
+  [1m[36mIssue Load (0.1ms)[0m  [1mSELECT  "issues".* FROM "issues" WHERE "issues"."id" = ?  ORDER BY "issues"."id" ASC LIMIT 1[0m  [["id", 1]]
+  Rendered welcome/index.html.erb within layouts/application (2.2ms)
+DEPRECATION WARNING: Extra .css in SCSS file is unnecessary. Rename /home/user/Dropbox/Sites&Apps/depolitik/app/assets/stylesheets/normalize.css.scss to /home/user/Dropbox/Sites&Apps/depolitik/app/assets/stylesheets/normalize.scss. (called from _app_views_layouts_application_html_erb__4037588055094681884_47229602302680 at /home/user/Dropbox/Sites&Apps/depolitik/app/views/layouts/application.html.erb:5)
+DEPRECATION WARNING: Extra .css in SCSS file is unnecessary. Rename /home/user/Dropbox/Sites&Apps/depolitik/app/assets/stylesheets/welcome.css.scss to /home/user/Dropbox/Sites&Apps/depolitik/app/assets/stylesheets/welcome.scss. (called from _app_views_layouts_application_html_erb__4037588055094681884_47229602302680 at /home/user/Dropbox/Sites&Apps/depolitik/app/views/layouts/application.html.erb:5)
+DEPRECATION WARNING: Extra .css in SCSS file is unnecessary. Rename /home/user/Dropbox/Sites&Apps/depolitik/app/assets/stylesheets/issues.css.scss to /home/user/Dropbox/Sites&Apps/depolitik/app/assets/stylesheets/issues.scss. (called from _app_views_layouts_application_html_erb__4037588055094681884_47229602302680 at /home/user/Dropbox/Sites&Apps/depolitik/app/views/layouts/application.html.erb:5)
+DEPRECATION WARNING: Extra .css in SCSS file is unnecessary. Rename /home/user/Dropbox/Sites&Apps/depolitik/app/assets/stylesheets/normalize.css.scss to /home/user/Dropbox/Sites&Apps/depolitik/app/assets/stylesheets/normalize.scss. (called from _app_views_layouts_application_html_erb__4037588055094681884_47229602302680 at /home/user/Dropbox/Sites&Apps/depolitik/app/views/layouts/application.html.erb:5)
+DEPRECATION WARNING: Extra .css in SCSS file is unnecessary. Rename /home/user/Dropbox/Sites&Apps/depolitik/app/assets/stylesheets/welcome.css.scss to /home/user/Dropbox/Sites&Apps/depolitik/app/assets/stylesheets/welcome.scss. (called from _app_views_layouts_application_html_erb__4037588055094681884_47229602302680 at /home/user/Dropbox/Sites&Apps/depolitik/app/views/layouts/application.html.erb:5)
+DEPRECATION WARNING: Extra .css in SCSS file is unnecessary. Rename /home/user/Dropbox/Sites&Apps/depolitik/app/assets/stylesheets/issues.css.scss to /home/user/Dropbox/Sites&Apps/depolitik/app/assets/stylesheets/issues.scss. (called from _app_views_layouts_application_html_erb__4037588055094681884_47229602302680 at /home/user/Dropbox/Sites&Apps/depolitik/app/views/layouts/application.html.erb:5)
+Completed 200 OK in 199ms (Views: 198.4ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/application.self-b4a9611507b0da3cf532fc196278be79478191000877f19510cdd48023c83ba6.css?body=1" for 127.0.0.1 at 2017-03-02 17:24:59 -0800
+
+
+Started GET "/" for 127.0.0.1 at 2017-03-02 17:25:26 -0800
+Processing by WelcomeController#index as HTML
+  [1m[35mIssue Load (0.2ms)[0m  SELECT  "issues".* FROM "issues" WHERE "issues"."id" = ?  ORDER BY "issues"."id" ASC LIMIT 1  [["id", 1]]
+  Rendered welcome/index.html.erb within layouts/application (3.6ms)
+DEPRECATION WARNING: Extra .css in SCSS file is unnecessary. Rename /home/user/Dropbox/Sites&Apps/depolitik/app/assets/stylesheets/normalize.css.scss to /home/user/Dropbox/Sites&Apps/depolitik/app/assets/stylesheets/normalize.scss. (called from _app_views_layouts_application_html_erb__4037588055094681884_47229602302680 at /home/user/Dropbox/Sites&Apps/depolitik/app/views/layouts/application.html.erb:5)
+DEPRECATION WARNING: Extra .css in SCSS file is unnecessary. Rename /home/user/Dropbox/Sites&Apps/depolitik/app/assets/stylesheets/welcome.css.scss to /home/user/Dropbox/Sites&Apps/depolitik/app/assets/stylesheets/welcome.scss. (called from _app_views_layouts_application_html_erb__4037588055094681884_47229602302680 at /home/user/Dropbox/Sites&Apps/depolitik/app/views/layouts/application.html.erb:5)
+DEPRECATION WARNING: Extra .css in SCSS file is unnecessary. Rename /home/user/Dropbox/Sites&Apps/depolitik/app/assets/stylesheets/issues.css.scss to /home/user/Dropbox/Sites&Apps/depolitik/app/assets/stylesheets/issues.scss. (called from _app_views_layouts_application_html_erb__4037588055094681884_47229602302680 at /home/user/Dropbox/Sites&Apps/depolitik/app/views/layouts/application.html.erb:5)
+DEPRECATION WARNING: Extra .css in SCSS file is unnecessary. Rename /home/user/Dropbox/Sites&Apps/depolitik/app/assets/stylesheets/normalize.css.scss to /home/user/Dropbox/Sites&Apps/depolitik/app/assets/stylesheets/normalize.scss. (called from _app_views_layouts_application_html_erb__4037588055094681884_47229602302680 at /home/user/Dropbox/Sites&Apps/depolitik/app/views/layouts/application.html.erb:5)
+DEPRECATION WARNING: Extra .css in SCSS file is unnecessary. Rename /home/user/Dropbox/Sites&Apps/depolitik/app/assets/stylesheets/welcome.css.scss to /home/user/Dropbox/Sites&Apps/depolitik/app/assets/stylesheets/welcome.scss. (called from _app_views_layouts_application_html_erb__4037588055094681884_47229602302680 at /home/user/Dropbox/Sites&Apps/depolitik/app/views/layouts/application.html.erb:5)
+DEPRECATION WARNING: Extra .css in SCSS file is unnecessary. Rename /home/user/Dropbox/Sites&Apps/depolitik/app/assets/stylesheets/issues.css.scss to /home/user/Dropbox/Sites&Apps/depolitik/app/assets/stylesheets/issues.scss. (called from _app_views_layouts_application_html_erb__4037588055094681884_47229602302680 at /home/user/Dropbox/Sites&Apps/depolitik/app/views/layouts/application.html.erb:5)
+Completed 200 OK in 217ms (Views: 215.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.self-137c9f0c2386a8a8f68047370d7c2a7aeaf87c962190b938b6d93a572b7fc063.css?body=1" for 127.0.0.1 at 2017-03-02 17:25:26 -0800
+
+
+Started GET "/" for 127.0.0.1 at 2017-03-02 17:25:52 -0800
+Processing by WelcomeController#index as HTML
+  [1m[36mIssue Load (0.1ms)[0m  [1mSELECT  "issues".* FROM "issues" WHERE "issues"."id" = ?  ORDER BY "issues"."id" ASC LIMIT 1[0m  [["id", 1]]
+  Rendered welcome/index.html.erb within layouts/application (2.1ms)
+DEPRECATION WARNING: Extra .css in SCSS file is unnecessary. Rename /home/user/Dropbox/Sites&Apps/depolitik/app/assets/stylesheets/normalize.css.scss to /home/user/Dropbox/Sites&Apps/depolitik/app/assets/stylesheets/normalize.scss. (called from _app_views_layouts_application_html_erb__4037588055094681884_47229602302680 at /home/user/Dropbox/Sites&Apps/depolitik/app/views/layouts/application.html.erb:5)
+DEPRECATION WARNING: Extra .css in SCSS file is unnecessary. Rename /home/user/Dropbox/Sites&Apps/depolitik/app/assets/stylesheets/welcome.css.scss to /home/user/Dropbox/Sites&Apps/depolitik/app/assets/stylesheets/welcome.scss. (called from _app_views_layouts_application_html_erb__4037588055094681884_47229602302680 at /home/user/Dropbox/Sites&Apps/depolitik/app/views/layouts/application.html.erb:5)
+DEPRECATION WARNING: Extra .css in SCSS file is unnecessary. Rename /home/user/Dropbox/Sites&Apps/depolitik/app/assets/stylesheets/issues.css.scss to /home/user/Dropbox/Sites&Apps/depolitik/app/assets/stylesheets/issues.scss. (called from _app_views_layouts_application_html_erb__4037588055094681884_47229602302680 at /home/user/Dropbox/Sites&Apps/depolitik/app/views/layouts/application.html.erb:5)
+DEPRECATION WARNING: Extra .css in SCSS file is unnecessary. Rename /home/user/Dropbox/Sites&Apps/depolitik/app/assets/stylesheets/normalize.css.scss to /home/user/Dropbox/Sites&Apps/depolitik/app/assets/stylesheets/normalize.scss. (called from _app_views_layouts_application_html_erb__4037588055094681884_47229602302680 at /home/user/Dropbox/Sites&Apps/depolitik/app/views/layouts/application.html.erb:5)
+DEPRECATION WARNING: Extra .css in SCSS file is unnecessary. Rename /home/user/Dropbox/Sites&Apps/depolitik/app/assets/stylesheets/welcome.css.scss to /home/user/Dropbox/Sites&Apps/depolitik/app/assets/stylesheets/welcome.scss. (called from _app_views_layouts_application_html_erb__4037588055094681884_47229602302680 at /home/user/Dropbox/Sites&Apps/depolitik/app/views/layouts/application.html.erb:5)
+DEPRECATION WARNING: Extra .css in SCSS file is unnecessary. Rename /home/user/Dropbox/Sites&Apps/depolitik/app/assets/stylesheets/issues.css.scss to /home/user/Dropbox/Sites&Apps/depolitik/app/assets/stylesheets/issues.scss. (called from _app_views_layouts_application_html_erb__4037588055094681884_47229602302680 at /home/user/Dropbox/Sites&Apps/depolitik/app/views/layouts/application.html.erb:5)
+Completed 200 OK in 148ms (Views: 147.7ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/application.self-b0e9de613c90f14b4acd136a60aadd0d693a0f2f2fa685a40ed48c1bbffa026c.css?body=1" for 127.0.0.1 at 2017-03-02 17:25:52 -0800
+
+
+Started GET "/" for 127.0.0.1 at 2017-03-02 17:25:55 -0800
+Processing by WelcomeController#index as HTML
+  [1m[35mIssue Load (0.1ms)[0m  SELECT  "issues".* FROM "issues" WHERE "issues"."id" = ?  ORDER BY "issues"."id" ASC LIMIT 1  [["id", 1]]
+  Rendered welcome/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 29ms (Views: 28.1ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-03-02 17:26:11 -0800
+Processing by WelcomeController#index as HTML
+  [1m[36mIssue Load (0.1ms)[0m  [1mSELECT  "issues".* FROM "issues" WHERE "issues"."id" = ?  ORDER BY "issues"."id" ASC LIMIT 1[0m  [["id", 1]]
+  Rendered welcome/index.html.erb within layouts/application (2.3ms)
+DEPRECATION WARNING: Extra .css in SCSS file is unnecessary. Rename /home/user/Dropbox/Sites&Apps/depolitik/app/assets/stylesheets/normalize.css.scss to /home/user/Dropbox/Sites&Apps/depolitik/app/assets/stylesheets/normalize.scss. (called from _app_views_layouts_application_html_erb__4037588055094681884_47229602302680 at /home/user/Dropbox/Sites&Apps/depolitik/app/views/layouts/application.html.erb:5)
+DEPRECATION WARNING: Extra .css in SCSS file is unnecessary. Rename /home/user/Dropbox/Sites&Apps/depolitik/app/assets/stylesheets/welcome.css.scss to /home/user/Dropbox/Sites&Apps/depolitik/app/assets/stylesheets/welcome.scss. (called from _app_views_layouts_application_html_erb__4037588055094681884_47229602302680 at /home/user/Dropbox/Sites&Apps/depolitik/app/views/layouts/application.html.erb:5)
+DEPRECATION WARNING: Extra .css in SCSS file is unnecessary. Rename /home/user/Dropbox/Sites&Apps/depolitik/app/assets/stylesheets/issues.css.scss to /home/user/Dropbox/Sites&Apps/depolitik/app/assets/stylesheets/issues.scss. (called from _app_views_layouts_application_html_erb__4037588055094681884_47229602302680 at /home/user/Dropbox/Sites&Apps/depolitik/app/views/layouts/application.html.erb:5)
+DEPRECATION WARNING: Extra .css in SCSS file is unnecessary. Rename /home/user/Dropbox/Sites&Apps/depolitik/app/assets/stylesheets/normalize.css.scss to /home/user/Dropbox/Sites&Apps/depolitik/app/assets/stylesheets/normalize.scss. (called from _app_views_layouts_application_html_erb__4037588055094681884_47229602302680 at /home/user/Dropbox/Sites&Apps/depolitik/app/views/layouts/application.html.erb:5)
+DEPRECATION WARNING: Extra .css in SCSS file is unnecessary. Rename /home/user/Dropbox/Sites&Apps/depolitik/app/assets/stylesheets/welcome.css.scss to /home/user/Dropbox/Sites&Apps/depolitik/app/assets/stylesheets/welcome.scss. (called from _app_views_layouts_application_html_erb__4037588055094681884_47229602302680 at /home/user/Dropbox/Sites&Apps/depolitik/app/views/layouts/application.html.erb:5)
+DEPRECATION WARNING: Extra .css in SCSS file is unnecessary. Rename /home/user/Dropbox/Sites&Apps/depolitik/app/assets/stylesheets/issues.css.scss to /home/user/Dropbox/Sites&Apps/depolitik/app/assets/stylesheets/issues.scss. (called from _app_views_layouts_application_html_erb__4037588055094681884_47229602302680 at /home/user/Dropbox/Sites&Apps/depolitik/app/views/layouts/application.html.erb:5)
+Completed 200 OK in 158ms (Views: 157.2ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/application.self-01b69a25fd111ad8e0d85e8a1a85dc9c26bb6c4dec7577165f1c294d1fcfe35a.css?body=1" for 127.0.0.1 at 2017-03-02 17:26:12 -0800
+
+
+Started GET "/" for 127.0.0.1 at 2017-03-02 17:26:21 -0800
+Processing by WelcomeController#index as HTML
+  [1m[35mIssue Load (0.1ms)[0m  SELECT  "issues".* FROM "issues" WHERE "issues"."id" = ?  ORDER BY "issues"."id" ASC LIMIT 1  [["id", 1]]
+  Rendered welcome/index.html.erb within layouts/application (1.7ms)
+DEPRECATION WARNING: Extra .css in SCSS file is unnecessary. Rename /home/user/Dropbox/Sites&Apps/depolitik/app/assets/stylesheets/normalize.css.scss to /home/user/Dropbox/Sites&Apps/depolitik/app/assets/stylesheets/normalize.scss. (called from _app_views_layouts_application_html_erb__4037588055094681884_47229602302680 at /home/user/Dropbox/Sites&Apps/depolitik/app/views/layouts/application.html.erb:5)
+DEPRECATION WARNING: Extra .css in SCSS file is unnecessary. Rename /home/user/Dropbox/Sites&Apps/depolitik/app/assets/stylesheets/welcome.css.scss to /home/user/Dropbox/Sites&Apps/depolitik/app/assets/stylesheets/welcome.scss. (called from _app_views_layouts_application_html_erb__4037588055094681884_47229602302680 at /home/user/Dropbox/Sites&Apps/depolitik/app/views/layouts/application.html.erb:5)
+DEPRECATION WARNING: Extra .css in SCSS file is unnecessary. Rename /home/user/Dropbox/Sites&Apps/depolitik/app/assets/stylesheets/issues.css.scss to /home/user/Dropbox/Sites&Apps/depolitik/app/assets/stylesheets/issues.scss. (called from _app_views_layouts_application_html_erb__4037588055094681884_47229602302680 at /home/user/Dropbox/Sites&Apps/depolitik/app/views/layouts/application.html.erb:5)
+DEPRECATION WARNING: Extra .css in SCSS file is unnecessary. Rename /home/user/Dropbox/Sites&Apps/depolitik/app/assets/stylesheets/normalize.css.scss to /home/user/Dropbox/Sites&Apps/depolitik/app/assets/stylesheets/normalize.scss. (called from _app_views_layouts_application_html_erb__4037588055094681884_47229602302680 at /home/user/Dropbox/Sites&Apps/depolitik/app/views/layouts/application.html.erb:5)
+DEPRECATION WARNING: Extra .css in SCSS file is unnecessary. Rename /home/user/Dropbox/Sites&Apps/depolitik/app/assets/stylesheets/welcome.css.scss to /home/user/Dropbox/Sites&Apps/depolitik/app/assets/stylesheets/welcome.scss. (called from _app_views_layouts_application_html_erb__4037588055094681884_47229602302680 at /home/user/Dropbox/Sites&Apps/depolitik/app/views/layouts/application.html.erb:5)
+DEPRECATION WARNING: Extra .css in SCSS file is unnecessary. Rename /home/user/Dropbox/Sites&Apps/depolitik/app/assets/stylesheets/issues.css.scss to /home/user/Dropbox/Sites&Apps/depolitik/app/assets/stylesheets/issues.scss. (called from _app_views_layouts_application_html_erb__4037588055094681884_47229602302680 at /home/user/Dropbox/Sites&Apps/depolitik/app/views/layouts/application.html.erb:5)
+Completed 200 OK in 161ms (Views: 160.3ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/application.self-bc59b0c83ac052e910446bec7c31b8850119669fd8bd7b07a27e543ccd9fca32.css?body=1" for 127.0.0.1 at 2017-03-02 17:26:21 -0800
+
+
+Started GET "/" for 127.0.0.1 at 2017-03-02 17:26:43 -0800
+Processing by WelcomeController#index as HTML
+  [1m[36mIssue Load (0.1ms)[0m  [1mSELECT  "issues".* FROM "issues" WHERE "issues"."id" = ?  ORDER BY "issues"."id" ASC LIMIT 1[0m  [["id", 1]]
+  Rendered welcome/index.html.erb within layouts/application (1.8ms)
+DEPRECATION WARNING: Extra .css in SCSS file is unnecessary. Rename /home/user/Dropbox/Sites&Apps/depolitik/app/assets/stylesheets/normalize.css.scss to /home/user/Dropbox/Sites&Apps/depolitik/app/assets/stylesheets/normalize.scss. (called from _app_views_layouts_application_html_erb__4037588055094681884_47229602302680 at /home/user/Dropbox/Sites&Apps/depolitik/app/views/layouts/application.html.erb:5)
+DEPRECATION WARNING: Extra .css in SCSS file is unnecessary. Rename /home/user/Dropbox/Sites&Apps/depolitik/app/assets/stylesheets/welcome.css.scss to /home/user/Dropbox/Sites&Apps/depolitik/app/assets/stylesheets/welcome.scss. (called from _app_views_layouts_application_html_erb__4037588055094681884_47229602302680 at /home/user/Dropbox/Sites&Apps/depolitik/app/views/layouts/application.html.erb:5)
+DEPRECATION WARNING: Extra .css in SCSS file is unnecessary. Rename /home/user/Dropbox/Sites&Apps/depolitik/app/assets/stylesheets/issues.css.scss to /home/user/Dropbox/Sites&Apps/depolitik/app/assets/stylesheets/issues.scss. (called from _app_views_layouts_application_html_erb__4037588055094681884_47229602302680 at /home/user/Dropbox/Sites&Apps/depolitik/app/views/layouts/application.html.erb:5)
+DEPRECATION WARNING: Extra .css in SCSS file is unnecessary. Rename /home/user/Dropbox/Sites&Apps/depolitik/app/assets/stylesheets/normalize.css.scss to /home/user/Dropbox/Sites&Apps/depolitik/app/assets/stylesheets/normalize.scss. (called from _app_views_layouts_application_html_erb__4037588055094681884_47229602302680 at /home/user/Dropbox/Sites&Apps/depolitik/app/views/layouts/application.html.erb:5)
+DEPRECATION WARNING: Extra .css in SCSS file is unnecessary. Rename /home/user/Dropbox/Sites&Apps/depolitik/app/assets/stylesheets/welcome.css.scss to /home/user/Dropbox/Sites&Apps/depolitik/app/assets/stylesheets/welcome.scss. (called from _app_views_layouts_application_html_erb__4037588055094681884_47229602302680 at /home/user/Dropbox/Sites&Apps/depolitik/app/views/layouts/application.html.erb:5)
+DEPRECATION WARNING: Extra .css in SCSS file is unnecessary. Rename /home/user/Dropbox/Sites&Apps/depolitik/app/assets/stylesheets/issues.css.scss to /home/user/Dropbox/Sites&Apps/depolitik/app/assets/stylesheets/issues.scss. (called from _app_views_layouts_application_html_erb__4037588055094681884_47229602302680 at /home/user/Dropbox/Sites&Apps/depolitik/app/views/layouts/application.html.erb:5)
+Completed 200 OK in 169ms (Views: 168.2ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/application.self-ab3176ae08b56aed453ae9d2e6f06efdfac4cfe56711f36b2c1c9a213f9e682a.css?body=1" for 127.0.0.1 at 2017-03-02 17:26:43 -0800
+
+
+Started GET "/" for 127.0.0.1 at 2017-03-02 17:27:26 -0800
+Processing by WelcomeController#index as HTML
+  [1m[35mIssue Load (0.1ms)[0m  SELECT  "issues".* FROM "issues" WHERE "issues"."id" = ?  ORDER BY "issues"."id" ASC LIMIT 1  [["id", 1]]
+  Rendered welcome/index.html.erb within layouts/application (2.1ms)
+DEPRECATION WARNING: Extra .css in SCSS file is unnecessary. Rename /home/user/Dropbox/Sites&Apps/depolitik/app/assets/stylesheets/normalize.css.scss to /home/user/Dropbox/Sites&Apps/depolitik/app/assets/stylesheets/normalize.scss. (called from _app_views_layouts_application_html_erb__4037588055094681884_47229602302680 at /home/user/Dropbox/Sites&Apps/depolitik/app/views/layouts/application.html.erb:5)
+DEPRECATION WARNING: Extra .css in SCSS file is unnecessary. Rename /home/user/Dropbox/Sites&Apps/depolitik/app/assets/stylesheets/welcome.css.scss to /home/user/Dropbox/Sites&Apps/depolitik/app/assets/stylesheets/welcome.scss. (called from _app_views_layouts_application_html_erb__4037588055094681884_47229602302680 at /home/user/Dropbox/Sites&Apps/depolitik/app/views/layouts/application.html.erb:5)
+DEPRECATION WARNING: Extra .css in SCSS file is unnecessary. Rename /home/user/Dropbox/Sites&Apps/depolitik/app/assets/stylesheets/issues.css.scss to /home/user/Dropbox/Sites&Apps/depolitik/app/assets/stylesheets/issues.scss. (called from _app_views_layouts_application_html_erb__4037588055094681884_47229602302680 at /home/user/Dropbox/Sites&Apps/depolitik/app/views/layouts/application.html.erb:5)
+DEPRECATION WARNING: Extra .css in SCSS file is unnecessary. Rename /home/user/Dropbox/Sites&Apps/depolitik/app/assets/stylesheets/normalize.css.scss to /home/user/Dropbox/Sites&Apps/depolitik/app/assets/stylesheets/normalize.scss. (called from _app_views_layouts_application_html_erb__4037588055094681884_47229602302680 at /home/user/Dropbox/Sites&Apps/depolitik/app/views/layouts/application.html.erb:5)
+DEPRECATION WARNING: Extra .css in SCSS file is unnecessary. Rename /home/user/Dropbox/Sites&Apps/depolitik/app/assets/stylesheets/welcome.css.scss to /home/user/Dropbox/Sites&Apps/depolitik/app/assets/stylesheets/welcome.scss. (called from _app_views_layouts_application_html_erb__4037588055094681884_47229602302680 at /home/user/Dropbox/Sites&Apps/depolitik/app/views/layouts/application.html.erb:5)
+DEPRECATION WARNING: Extra .css in SCSS file is unnecessary. Rename /home/user/Dropbox/Sites&Apps/depolitik/app/assets/stylesheets/issues.css.scss to /home/user/Dropbox/Sites&Apps/depolitik/app/assets/stylesheets/issues.scss. (called from _app_views_layouts_application_html_erb__4037588055094681884_47229602302680 at /home/user/Dropbox/Sites&Apps/depolitik/app/views/layouts/application.html.erb:5)
+Completed 200 OK in 171ms (Views: 170.5ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/application.self-5c8c4e88d5d949080c7afdeedf2a9e1f4e9e08d51d97bffbcfffb3e76b909d74.css?body=1" for 127.0.0.1 at 2017-03-02 17:27:26 -0800
+
+
+Started GET "/static_pages/about" for 127.0.0.1 at 2017-03-02 17:27:38 -0800
+Processing by StaticPagesController#about as HTML
+  Rendered static_pages/about.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 33ms (Views: 32.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static_pages/css/application.css" for 127.0.0.1 at 2017-03-02 17:27:38 -0800
+
+ActionController::RoutingError (No route matches [GET] "/static_pages/css/application.css"):
+  actionpack (4.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.5) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.5) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.6) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.5) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.5) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.6) lib/rails/engine.rb:518:in `call'
+  railties (4.2.6) lib/rails/application.rb:165:in `call'
+  rack (1.6.5) lib/rack/lock.rb:17:in `call'
+  rack (1.6.5) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.5) lib/rack/handler/webrick.rb:88:in `service'
+  /home/user/.rbenv/versions/2.3.1/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+  /home/user/.rbenv/versions/2.3.1/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+  /home/user/.rbenv/versions/2.3.1/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+
+
+  Rendered /home/user/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.9ms)
+  Rendered /home/user/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.1ms)
+  Rendered /home/user/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_table.html.erb (11.6ms)
+  Rendered /home/user/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.5ms)
+  Rendered /home/user/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (58.6ms)
+  Rendered /home/user/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /home/user/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/user/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/user/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.6ms)
+  Rendered /home/user/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (42.2ms)
+  Rendered /home/user/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.7ms)
+  Rendered /home/user/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.6ms)
+  Rendered /home/user/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (79.5ms)
+
+
+Started GET "/static_pages/about" for 127.0.0.1 at 2017-03-02 17:28:20 -0800
+Processing by StaticPagesController#about as HTML
+  Rendered static_pages/about.html.erb within layouts/application (0.5ms)
+DEPRECATION WARNING: Extra .css in SCSS file is unnecessary. Rename /home/user/Dropbox/Sites&Apps/depolitik/app/assets/stylesheets/normalize.css.scss to /home/user/Dropbox/Sites&Apps/depolitik/app/assets/stylesheets/normalize.scss. (called from _app_views_layouts_application_html_erb__4037588055094681884_47229602302680 at /home/user/Dropbox/Sites&Apps/depolitik/app/views/layouts/application.html.erb:5)
+DEPRECATION WARNING: Extra .css in SCSS file is unnecessary. Rename /home/user/Dropbox/Sites&Apps/depolitik/app/assets/stylesheets/welcome.css.scss to /home/user/Dropbox/Sites&Apps/depolitik/app/assets/stylesheets/welcome.scss. (called from _app_views_layouts_application_html_erb__4037588055094681884_47229602302680 at /home/user/Dropbox/Sites&Apps/depolitik/app/views/layouts/application.html.erb:5)
+DEPRECATION WARNING: Extra .css in SCSS file is unnecessary. Rename /home/user/Dropbox/Sites&Apps/depolitik/app/assets/stylesheets/issues.css.scss to /home/user/Dropbox/Sites&Apps/depolitik/app/assets/stylesheets/issues.scss. (called from _app_views_layouts_application_html_erb__4037588055094681884_47229602302680 at /home/user/Dropbox/Sites&Apps/depolitik/app/views/layouts/application.html.erb:5)
+DEPRECATION WARNING: Extra .css in SCSS file is unnecessary. Rename /home/user/Dropbox/Sites&Apps/depolitik/app/assets/stylesheets/normalize.css.scss to /home/user/Dropbox/Sites&Apps/depolitik/app/assets/stylesheets/normalize.scss. (called from _app_views_layouts_application_html_erb__4037588055094681884_47229602302680 at /home/user/Dropbox/Sites&Apps/depolitik/app/views/layouts/application.html.erb:5)
+DEPRECATION WARNING: Extra .css in SCSS file is unnecessary. Rename /home/user/Dropbox/Sites&Apps/depolitik/app/assets/stylesheets/welcome.css.scss to /home/user/Dropbox/Sites&Apps/depolitik/app/assets/stylesheets/welcome.scss. (called from _app_views_layouts_application_html_erb__4037588055094681884_47229602302680 at /home/user/Dropbox/Sites&Apps/depolitik/app/views/layouts/application.html.erb:5)
+DEPRECATION WARNING: Extra .css in SCSS file is unnecessary. Rename /home/user/Dropbox/Sites&Apps/depolitik/app/assets/stylesheets/issues.css.scss to /home/user/Dropbox/Sites&Apps/depolitik/app/assets/stylesheets/issues.scss. (called from _app_views_layouts_application_html_erb__4037588055094681884_47229602302680 at /home/user/Dropbox/Sites&Apps/depolitik/app/views/layouts/application.html.erb:5)
+Completed 200 OK in 142ms (Views: 141.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-09d9c8006ed14ca99f48b7a644eb032ab1e4bbe1fa7731374f97d7b775abeeff.css?body=1" for 127.0.0.1 at 2017-03-02 17:28:21 -0800
+
+
+Started GET "/static_pages/css/application.css" for 127.0.0.1 at 2017-03-02 17:28:21 -0800
+
+ActionController::RoutingError (No route matches [GET] "/static_pages/css/application.css"):
+  actionpack (4.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.5) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.5) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.6) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.5) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.5) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.6) lib/rails/engine.rb:518:in `call'
+  railties (4.2.6) lib/rails/application.rb:165:in `call'
+  rack (1.6.5) lib/rack/lock.rb:17:in `call'
+  rack (1.6.5) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.5) lib/rack/handler/webrick.rb:88:in `service'
+  /home/user/.rbenv/versions/2.3.1/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+  /home/user/.rbenv/versions/2.3.1/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+  /home/user/.rbenv/versions/2.3.1/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+
+
+  Rendered /home/user/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.1ms)
+  Rendered /home/user/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_route.html.erb (3.5ms)
+  Rendered /home/user/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.6ms)
+  Rendered /home/user/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.6ms)
+  Rendered /home/user/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (46.7ms)
+  Rendered /home/user/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /home/user/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/user/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.6ms)
+  Rendered /home/user/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+  Rendered /home/user/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (26.2ms)
+  Rendered /home/user/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /home/user/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /home/user/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (53.0ms)
+
+
+Started GET "/static_pages/css/application.css" for 127.0.0.1 at 2017-03-02 17:28:21 -0800
+
+ActionController::RoutingError (No route matches [GET] "/static_pages/css/application.css"):
+  actionpack (4.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.5) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.5) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.6) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.5) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.5) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.6) lib/rails/engine.rb:518:in `call'
+  railties (4.2.6) lib/rails/application.rb:165:in `call'
+  rack (1.6.5) lib/rack/lock.rb:17:in `call'
+  rack (1.6.5) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.5) lib/rack/handler/webrick.rb:88:in `service'
+  /home/user/.rbenv/versions/2.3.1/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+  /home/user/.rbenv/versions/2.3.1/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+  /home/user/.rbenv/versions/2.3.1/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+
+
+  Rendered /home/user/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.2ms)
+  Rendered /home/user/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.2ms)
+  Rendered /home/user/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_table.html.erb (2.2ms)
+  Rendered /home/user/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.7ms)
+  Rendered /home/user/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (48.6ms)
+  Rendered /home/user/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.7ms)
+  Rendered /home/user/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/user/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/user/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.6ms)
+  Rendered /home/user/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (28.2ms)
+  Rendered /home/user/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /home/user/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.9ms)
+  Rendered /home/user/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (56.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-03-02 17:28:24 -0800
+Processing by WelcomeController#index as HTML
+  [1m[36mIssue Load (0.1ms)[0m  [1mSELECT  "issues".* FROM "issues" WHERE "issues"."id" = ?  ORDER BY "issues"."id" ASC LIMIT 1[0m  [["id", 1]]
+  Rendered welcome/index.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 38ms (Views: 37.7ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/static_pages/about" for 127.0.0.1 at 2017-03-02 17:28:39 -0800
+Processing by StaticPagesController#about as HTML
+  Rendered static_pages/about.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 38ms (Views: 37.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static_pages/css/application.css" for 127.0.0.1 at 2017-03-02 17:28:39 -0800
+
+ActionController::RoutingError (No route matches [GET] "/static_pages/css/application.css"):
+  actionpack (4.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.5) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.5) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.6) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.5) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.5) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.6) lib/rails/engine.rb:518:in `call'
+  railties (4.2.6) lib/rails/application.rb:165:in `call'
+  rack (1.6.5) lib/rack/lock.rb:17:in `call'
+  rack (1.6.5) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.5) lib/rack/handler/webrick.rb:88:in `service'
+  /home/user/.rbenv/versions/2.3.1/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+  /home/user/.rbenv/versions/2.3.1/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+  /home/user/.rbenv/versions/2.3.1/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+
+
+  Rendered /home/user/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.6ms)
+  Rendered /home/user/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_route.html.erb (3.8ms)
+  Rendered /home/user/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_table.html.erb (2.1ms)
+  Rendered /home/user/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.8ms)
+  Rendered /home/user/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (44.8ms)
+  Rendered /home/user/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (1.0ms)
+  Rendered /home/user/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /home/user/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/user/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+  Rendered /home/user/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (28.4ms)
+  Rendered /home/user/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /home/user/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.7ms)
+  Rendered /home/user/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (61.1ms)

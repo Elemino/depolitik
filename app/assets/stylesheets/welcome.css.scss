@@ -5,6 +5,11 @@
   background-position: center;
   text-align: center;
   header {
+    a::first-letter {
+
+        font-size: 150%;
+        color: #FFA500;
+    }
     color: $white;
     padding: 3rem 0;
     #logo {

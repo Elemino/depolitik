@@ -1,11 +1,11 @@
 <div id="background">
   <header class="cf">
   <div class="wrapper_wide">
-    <a href="index.html" id="logo">Earo</a>
+    <a href="index.html" id="logo"><b>E</b>aro</a>
     <nav>
       <ul>
         <% unless issue_signed_in? %>
-      <li> <%= link_to "Inventory", issues_path %></l>
+        <li> <%= link_to "Inventory", issues_path %></l>
         <li><%= link_to "Sign In", new_issue_session_path %></li>
         <li><%= link_to "Post An Issue", new_issue_registration_path %></li>
         <li><%= link_to "About", {:controller => 'static_pages', :action => 'about'} %></li>
