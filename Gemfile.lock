@@ -1,3 +1,12 @@
+GIT
+  remote: git://github.com/opal/opal-rspec-rails.git
+  revision: 7fb6ab7480752a7346bbd4a4b85e2f1891d6a2b0
+  specs:
+    opal-rspec-rails (0.1.0)
+      opal (~> 0.10.0)
+      opal-rails (~> 0.9.0)
+      opal-rspec (~> 0.6.0)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -100,6 +109,8 @@ GEM
       opal-sprockets (~> 0.4.1)
       rails (>= 4.1, < 6.0)
       sprockets-rails (>= 2.3.3, < 4.0)
+    opal-rspec (0.6.1)
+      opal (>= 0.10.0, < 0.12)
     opal-sprockets (0.4.1.0.10.4.3.1.0)
       opal (~> 0.10.4)
       sprockets (~> 3.1)
@@ -190,6 +201,7 @@ DEPENDENCIES
   jbuilder (~> 2.0)
   jquery-rails
   opal-rails
+  opal-rspec-rails!
   pg
   rails (= 4.2.6)
   rails_12factor
