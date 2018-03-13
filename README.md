@@ -1,5 +1,3 @@
 # Earo # 
 
-My attempt to reinvent the the diy forum using Ruby on the front end entirely.  
-
-All contributions are welcomed.
+Reinventing the the diy forum using Ruby on the front-end exclusivaly with Opal.rb
