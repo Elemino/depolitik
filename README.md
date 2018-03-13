@@ -1,6 +1,5 @@
-# earo - A rails project currently in the works.
+# Earo # 
 
-## http://elemino.github.io/earo & https://earo.herokuapp.com/
+My attempt to reinvent the the diy forum using Ruby on the front end entirely.  
 
-
-Any contributions are welcomed.
+All contributions are welcomed.
