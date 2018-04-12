@@ -1,6 +1,3 @@
-# earo - A rails project currently in the works.
+# Earo # 
 
-## http://elemino.github.io/earo & https://earo.herokuapp.com/
-
-
-Any contributions are welcomed.
+Reinventing the DIY forum using Ruby on the front-end exclusivaly with Opal.rb
