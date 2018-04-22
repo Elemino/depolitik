@@ -1,6 +1,4 @@
 require 'turbolinks'
-require_tree '.'
-
 
 puts "Hello world!"
 pp hello: :world
