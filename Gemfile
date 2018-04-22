@@ -4,7 +4,7 @@ source 'https://rubygems.org'
 ruby '2.3.1'
 
 gem 'devise_security_extension'
-gem 'opal-rspec-rails', github: 'opal/opal-rspec-rails'
+
 gem 'opal-rails'
 gem 'rails', '4.2.7.1'
 gem 'sass-rails', '~> 5.0'
