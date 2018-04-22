@@ -1,7 +1,7 @@
 require 'turbolinks'
 
 puts "Hello world!"
-hello: :world
+hello::world
 require 'console'
 $console.log %w[Hello world!]
 
