@@ -10,10 +10,6 @@ require 'native'
 $$.alert "Hello world!"
 
 
-require 'opal-jquery'
-Document.ready? do
-  Element.find('body').html = '<h1>Hello world!</h1>'
-end
 
 
 $$[:document].addEventListener(:DOMContentLoaded, -> {
