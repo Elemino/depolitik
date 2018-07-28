@@ -10,7 +10,8 @@ Rails.application.routes.draw do
 
   root 'welcome#index'
 
-  resources :issues, only: [:index, :show]
-
+  resources :issues, only: [:index, :show] do
+    root 'issues#dashboard', as: "authenticated_root"
+  end
 
 end
