@@ -20,6 +20,7 @@ gem "minitest-rails", "~> 2.0"
 group :development, :test do
 
   gem 'byebug'
+  gem 'rspec-rails', '~> 3.8'
 end
 
 group :development do
@@ -36,3 +37,4 @@ group :production do
     gem 'pg', '~> 0.21'
     gem 'rails_12factor'
 end
+
