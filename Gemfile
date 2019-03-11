@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 
 
-ruby '2.3.1'
+ruby '2.5.1'
 
 gem 'devise_security_extension'
 gem 'rails', '4.2.7.1'
